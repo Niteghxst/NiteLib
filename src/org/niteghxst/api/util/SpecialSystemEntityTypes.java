@@ -1,6 +1,5 @@
 package org.niteghxst.api.util;
 
-
 /**
  * @author NITEGHXST
  *
