@@ -3,7 +3,7 @@
     "name":"NiteLib",
     "author":"NITEGHXST",
     "utility":"true",
-    "version":"v1.0",
+    "version":"v1.1.0",
     "description":"Collection of QOL classes to help in modding the game. Not a mod itself, however required for all my other mods.",
     "gameVersion": "0.97a-RC7",
     "jars":["jars/NiteLib.jar"]
