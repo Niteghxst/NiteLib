@@ -5,7 +5,7 @@ package org.niteghxst.api.util;
  *
  * Copyright 2024 Nite Corp
  */
-public class SpecialSystemEntityTypes {
+public class SpecialCampaignEntityTypes {
     // ╔═════════════════════════════════╗
     // ║         System Entities         ║
     // ╚═════════════════════════════════╝
@@ -22,6 +22,13 @@ public class SpecialSystemEntityTypes {
      */
     public static final String STELLAR_MIRROR = "stellar_mirror";
     public static final String STELLAR_SHADE = "stellar_shade";
+
+    /**
+     * Warning Beacon & -Glow
+     */
+    public static final String WARNING_BEACON = "warning_beacon";
+    public static final String WARNING_BEACON_GLOW = "warning_beacon_glow";
+
     /**
      * Derelict "Station" Types
      */

@@ -1,6 +1,33 @@
 public class SystemGeneratorLibExamples {
     /*
 
+    // ╔═════════════════════════════════╗
+    // ║ Category & Ring  Types Examples ║
+    // ╚═════════════════════════════════╝
+
+     system.addRingBand(
+         star, // What To Surround
+         GraphicCats.MISC, // Category Type
+         RingTypes.ASTEROIDS, // Key / Ring Type* (Info Below)
+         256f, // Band Width In Texture
+         3, // Band Index
+         Color.red, // Color
+         256f, // Band With In Engine
+         asteroidBelt1Dist - 150, // Middle Radius
+         350f // Orbit Days
+     );
+
+    // ╔═════════════════════════════════╗
+    // ║ Instead of manually typing the  ║
+    // ║ desired category and ring type  ║
+    // ║ ID, you call the "GraphicCats"  ║
+    // ║ class and "RingTypes" class an  ║
+    // ║ search for the types you wish   ║
+    // ║ to use.                         ║
+    // ╚═════════════════════════════════╝
+
+    // ───────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
 
     // ╔═════════════════════════════════╗
     // ║      Planet Types Examples      ║
@@ -45,7 +72,7 @@ public class SystemGeneratorLibExamples {
     SectorEntityToken systemSensorArray = system.addCustomEntity(
             "system_sensor_array",  // Entity ID
             "System Sensor Array", // Entity Name
-            SpecialSystemEntityTypes.SENSOR_ARRAY, // Entity Type* (Info Below)
+            SpecialCampaignEntityTypes.SENSOR_ARRAY, // Entity Type* (Info Below)
             "neutral" // Entity Owner (Faction)
     );
     array.setCircularOrbitPointingDown(
@@ -59,7 +86,7 @@ public class SystemGeneratorLibExamples {
     SectorEntityToken systemNavBuoy = system.addCustomEntity(
             "system_nav_buoy",
             "System Nav Buoy",
-            SpecialSystemEntityTypes.NAV_BUOY,
+            SpecialCampaignEntityTypes.NAV_BUOY,
             "neutral"
     );
     buoy.setCircularOrbitPointingDown(
@@ -73,7 +100,7 @@ public class SystemGeneratorLibExamples {
     SectorEntityToken systemCommRelay = system.addCustomEntity(
             "system_comm_relay",
             "System Comm Relay",
-            SpecialSystemEntityTypes.COMM_RELAY,
+            SpecialCampaignEntityTypes.COMM_RELAY,
             "neutral"
     );
     relay.setCircularOrbitPointingDown(
@@ -87,7 +114,7 @@ public class SystemGeneratorLibExamples {
     SectorEntityToken systemGate = system.addCustomEntity(
             "system_gate",
             "System Gate",
-            SpecialSystemEntityTypes.INACTIVE_GATE,
+            SpecialCampaignEntityTypes.INACTIVE_GATE,
             null
     );
     niterion_gate.setCircularOrbit(
@@ -101,7 +128,7 @@ public class SystemGeneratorLibExamples {
     // ║ Instead of manually typing the  ║
     // ║ desired special entity type ID, ║
     // ║ you call the                    ║
-    // ║ "SpecialSystemEntityTypes"      ║
+    // ║ "SpecialCampaignEntityTypes"      ║
     // ║ class and search for the entity ║
     // ║ type you wish to use.           ║
     // ╚═════════════════════════════════╝
